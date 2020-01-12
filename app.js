@@ -20,7 +20,7 @@ function fillCounter(){
 
     counter.font = "25px monospace"; // set font size and face
 
-    counter.fillText = (no,100,110); // fill text (text,x,y)
+    counter.fillText(no,100,110); // fill text (text,x,y)
 
     counter.beginPath();
     counter.arc(100,100,90,pointToFill,diff/10+pointToFill); // arc(x,y,radius,start,stop)
