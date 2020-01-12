@@ -18,7 +18,7 @@ function fillCounter(){
 
     counter.textAlign = 'center';
 
-    counter.font = '25px monospace'; // set font size and face
+    counter.font = "25px monospace"; // set font size and face
 
     counter.fillText = (no,100,110); // fill text (text,x,y)
 
