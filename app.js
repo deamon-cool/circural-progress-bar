@@ -23,7 +23,7 @@ function fillCounter(){
     counter.fillText(no,100,110); // fill text (text,x,y)
 
     counter.beginPath();
-    counter.arc(100,100,60,pointToFill,diff/10+pointToFill); // arc(x,y,radius,start,stop)
+    counter.arc(100,100,90,pointToFill,diff/10+pointToFill); // arc(x,y,radius,start,stop)
 
     counter.stroke(); //to fill progress line circle
 
