@@ -27,7 +27,7 @@ function fillCounter(){
 
     counter.stroke(); //to fill stroke
 
-    if (no >= 80){
+    if (no >= 100){
         clearTimeout(fill); // fill is a variable that call the function fillcounter()
     }
     no++;
