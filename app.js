@@ -14,7 +14,7 @@ function fillCounter(){
 
     counter.fillStyle = 'white'; // color that you want to fill 'numbers of steps'(text)
 
-    counter.strokeStyle = '#f5e0a9'; // stroke color
+    counter.strokeStyle = '#FFA500'; // progress line color
 
     counter.textAlign = 'center';
 
