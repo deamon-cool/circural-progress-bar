@@ -25,10 +25,10 @@ function fillCounter(){
     counter.beginPath();
     counter.arc(100,100,60,pointToFill,diff/10+pointToFill); // arc(x,y,radius,start,stop)
 
-    counter.stroke(); //to fill stroke
+    counter.stroke(); //to fill progress line circle
 
     if (no >= 100){
-        clearTimeout(fill); // fill is a variable that call the function fillcounter()
+        clearTimeout(fill); // stop interval. // fill is a variable that call the function fillcounter()
     }
     no++;
 }
