@@ -10,7 +10,7 @@ function fillCounter(){
 
     counter.clearRect(0,0,cw,ch); // clear canvas evry time when function is call
 
-    counter.lineWidth = 15; // size of stroke
+    counter.lineWidth = 8; // size of stroke
 
     counter.fillStyle = '#fff'; // color that you want to fill in counter/circle
 
