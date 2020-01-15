@@ -12,7 +12,7 @@ function fillCounter(){
 
     counter.lineWidth = 8; // size of stroke
 
-    counter.fillStyle = '#fff'; // color that you want to fill in counter/circle
+    counter.fillStyle = 'white'; // color that you want to fill 'numbers of steps'(text)
 
     counter.strokeStyle = '#f5e0a9'; // stroke color
 
